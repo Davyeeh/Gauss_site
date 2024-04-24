@@ -261,7 +261,7 @@ main {
     text-transform: uppercase;
 }
 
-.membros > hr {
+.membros>hr {
     border-color: #051a3f;
     background-color: #051a3f;
     height: .1rem;
@@ -288,7 +288,7 @@ main {
     justify-content: space-around;
 }
 
-.membros-cards > div {
+.membros-cards>div {
     background: #f9f9f9;
     height: auto;
     padding: 0.5rem;
@@ -300,23 +300,23 @@ main {
     text-align: center;
 }
 
-.membros-cards > div > img {
+.membros-cards>div>img {
     height: 10rem;
     width: 75%;
 }
 
-.membros-botao{
+.membros-botao {
     height: 1.5rem;
     width: auto;
     background: #051a3f;
     border: none;
     padding: 1.2rem;
-    
+
     display: flex;
     align-items: center;
 }
 
-.membros-botao > a {
+.membros-botao>a {
     text-decoration: none;
     color: #ffffff;
     font-family: "Titillium Web";
@@ -326,7 +326,7 @@ main {
     transition: .5s;
 }
 
-.membros-botao > a:hover {
+.membros-botao>a:hover {
     cursor: pointer;
     color: #d6d6d6;
 }
@@ -371,7 +371,7 @@ main {
     text-align: center;
 }
 
-.depoimento-card > img {
+.depoimento-card>img {
     border-radius: 100%;
     height: 7rem;
 }
@@ -381,13 +381,14 @@ main {
     margin-bottom: 1.5rem;
 }
 
-.depoimento > img {
+.depoimento>img {
     height: 16%;
     width: 16%;
     border-radius: 100%;
     margin-bottom: 1rem;
 }
 
-.depoimento-nome{
+.depoimento-nome {
     margin-bottom: .5rem;
 }
+
