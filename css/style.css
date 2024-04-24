@@ -198,9 +198,7 @@ main {
 }
 
 .trabalho-card {
-    background: #ffffff;
     color: #212529;
-    border: solid 1px #F3F1F1;
 }
 
 .trabalho-card-divisao {
@@ -217,15 +215,13 @@ main {
     justify-content: center;
 
     padding: 0 0 2rem 0;
-    border-right: solid 1px #F3F1F1;
-    border-bottom: solid 1px #F3F1F1;
 }
 
 .trabalho-card-conteudo-numero {
     top: 0;
     font-size: 5rem;
     margin-left: 1rem;
-    color: #f3f1f1;
+    color: #051a3f;
     font-weight: 700;
     position: absolute;
 }
