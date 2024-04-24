@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+body {
+    background: #051a3f;
+    color: #ffffff;
+    font-family: "Titillium Web";
+    max-width: 1500px;
+}
+
+header {
+    max-width: 1500px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+
+
+    margin: 1rem 2rem;
+}
+
+nav>img {
+    width: 6rem;
+}
+
+.menu {
+    display: flex;
+    flex: row;
+    gap: 2rem;
+}
+
+.menu-link {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1rem;
+    transition: .5s;
+}
+
+.menu-link:hover {
+    color: #c4c4c4;
+}
+
+main {
+    max-width: 1500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    height: 90vh;
+    background: url(../assets/background-hero.png) no-repeat center center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hero-texto-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: start;
+    justify-content: center;
+
+    padding: 5rem;
+}
+
+.hero-texto-1>h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.hero-texto-1>h2 {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.hero-texto-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: start;
+    justify-content: end;
+
+    padding: 5rem;
+}
+
+.servicos {
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3rem;
+    padding: 3rem 5rem;
+
+    color: #333333;
+}
+
+.servicos-card {
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+}
+
+.servicos-card-icon {
+    height: 2.5rem;
+}
+
+.servicos-card>h2 {
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.servicos-card>p {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #777777;
+}
+
+.sobre {
+    background-color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+    padding: 3rem;
+}
+
+.sobre-texto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+    margin: 0 3rem;
+
+    color: #212529;
+}
+
+.sobre-texto>p {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.trabalho {
+    background: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 6rem;
+
+}
+
+.trabalho-titulo {
+    margin: 2rem 0 0 0;
+
+    font-size: 1rem;
+    font-weight: 700;
+    color: #212529;
+}
+
+.trabalho-subtitulo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #232323;
+}
+
+.trabalho>hr {
+    border-color: #051a3f;
+    background-color: #051a3f;
+    height: .1rem;
+    width: 8%;
+    margin: 1rem 0 2rem 0;
+}
+
+.trabalho-card {
+    background: #ffffff;
+    color: #212529;
+    border: solid 1px #F3F1F1;
+}
+
+.trabalho-card-divisao {
+    display: flex;
+}
+
+.trabalho-card-conteudo {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-width: 50%;
+    min-height: 50%;
+    text-align: center;
+    justify-content: center;
+
+    padding: 0 0 2rem 0;
+    border-right: solid 1px #F3F1F1;
+    border-bottom: solid 1px #F3F1F1;
+}
+
+.trabalho-card-conteudo-numero {
+    top: 0;
+    font-size: 5rem;
+    margin-left: 1rem;
+    color: #f3f1f1;
+    font-weight: 700;
+    position: absolute;
+}
+
+.trabalho-card-conteudo-icon {
+    height: 3rem;
+    margin: 2rem 3rem;
+}
+
+.trabalho-card-conteudo>h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #212529;
+    margin-bottom: 1rem;
+}
+
+.trabalho-card-conteudo-texto {
+    color: #9a9a9a;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0 1.5rem;
+}
