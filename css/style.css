@@ -6,6 +6,7 @@ body {
     color: #ffffff;
     font-family: "Titillium Web";
     max-width: 1500px;
+    text-transform: uppercase;
 }
 
 header {
@@ -35,13 +36,14 @@ nav>img {
 
 .menu-link {
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1rem;
     transition: .5s;
 }
 
 .menu-link:hover {
     color: #c4c4c4;
+    cursor: pointer;
 }
 
 main {
@@ -163,7 +165,7 @@ main {
 .trabalho-titulo {
     margin: 2rem 0 0 0;
 
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: 700;
     color: #212529;
 }
@@ -232,4 +234,98 @@ main {
     font-size: 1rem;
     font-weight: 400;
     margin: 0 1.5rem;
+}
+
+.membros {
+    background: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+
+.membros-titulo {
+    margin: 2rem 0 0 0;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #212529;
+}
+
+.membros-subtitulo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #232323;
+    text-transform: uppercase;
+}
+
+.membros > hr {
+    border-color: #051a3f;
+    background-color: #051a3f;
+    height: .1rem;
+    width: 8%;
+    margin: 1rem 0 2rem 0;
+}
+
+.membros-text {
+    color: #9a9a9a;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: -0.5rem 1.5rem;
+}
+
+.membros-cards {
+    background: #f9f9f9;
+    margin-top: 2rem;
+    height: auto;
+    width: 82%;
+    padding: .5rem 2rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.membros-cards > div {
+    background: #f9f9f9;
+    height: auto;
+    padding: 0.5rem;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    align-items: center;
+    text-align: center;
+}
+
+.membros-cards > div > img {
+    height: 10rem;
+    width: 75%;
+}
+
+.membros-botao{
+    height: 1.5rem;
+    width: auto;
+    background: #051a3f;
+    border: none;
+    padding: 1.2rem;
+    
+    display: flex;
+    align-items: center;
+}
+
+.membros-botao > a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Titillium Web";
+    font-size: 1.3rem;
+    font-weight: 600;
+
+    transition: .5s;
+}
+
+.membros-botao > a:hover {
+    cursor: pointer;
+    color: #d6d6d6;
 }
