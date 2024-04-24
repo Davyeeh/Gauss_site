@@ -355,7 +355,8 @@ main {
 }
 
 .depoimento-div {
-    width: auto;
+    height: auto;
+    width: 82%;
     display: flex;
     gap: 5rem;
 }
@@ -392,3 +393,84 @@ main {
     margin-bottom: .5rem;
 }
 
+.contato {
+    background: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+
+.contato-titulo {
+    color: #232323;
+    margin: 2rem 0 0 0;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.contato-subtitulo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #232323;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.contato-card {
+    height: auto;
+    width: 82%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #232323;
+}
+
+.contato-card > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background: #f3f1f1;
+    text-align: center;
+    align-items: center;
+    padding: 2rem;
+    height: 12rem;
+    width: 11rem;
+    gap: 1rem;
+
+    margin-bottom: 4rem;
+}
+
+.contato-card > div > h2 {
+    font-size: 1.3rem;
+    color: #232323;
+    font-weight: 600;
+}
+
+.contato-card > div > img {
+    height: 3rem;
+}
+
+.contato-redes > div {
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    text-decoration: none;
+}
+
+.contato-redes > div > a {
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #232323;
+}
+
+.contato-redes > div > a > img {
+    height: 1rem;
+    margin: 10px 1px 0 0;
+}
