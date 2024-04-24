@@ -2,19 +2,26 @@
 
 
 
-body {
+html, body {
     background: #051a3f;
     color: #ffffff;
     font-family: "Titillium Web";
     max-width: 1500px;
     text-transform: uppercase;
     text-decoration: none;
+    scroll-behavior: smooth;
+    scroll-padding-top: 10vh;
 }
 
 /**----------  CABECALHO  ----------**/
 
 header {
-    max-width: 1500px;
+    width: 100%;
+    height: auto; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #051a3f;
 }
 
 nav {
@@ -23,7 +30,6 @@ nav {
     align-items: center;
     justify-content: space-between;
     width: auto;
-
 
     margin: 1rem 2rem;
 }
@@ -60,7 +66,7 @@ main {
 }
 
 .hero {
-    height: 90vh;
+    height: 100vh;
     background: url(../assets/background-hero.png) no-repeat center center;
     display: flex;
     flex-direction: row;
