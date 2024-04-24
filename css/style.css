@@ -8,7 +8,10 @@ body {
     font-family: "Titillium Web";
     max-width: 1500px;
     text-transform: uppercase;
+    text-decoration: none;
 }
+
+/**----------  CABECALHO  ----------**/
 
 header {
     max-width: 1500px;
@@ -46,6 +49,8 @@ nav>img {
     color: #c4c4c4;
     cursor: pointer;
 }
+
+/**----------  CORPO ---------**/
 
 main {
     max-width: 1500px;
@@ -456,21 +461,45 @@ main {
 .contato-redes > div {
     display: flex;
     flex-direction: column;
-    gap: .2rem;
+    gap: 1rem;
     justify-content: start;
     align-items: start;
     text-align: start;
     text-decoration: none;
 }
 
-.contato-redes > div > a {
+.contato-redes > div > a  {
     align-items: center;
     text-align: center;
     text-decoration: none;
     color: #232323;
 }
 
+.contato-endereco >p > a, .contato-zap > p > a{
+    color: #232323;
+}
+
 .contato-redes > div > a > img {
     height: 1rem;
     margin: 10px 1px 0 0;
+}
+
+.contato-zap > img {
+    margin-top: -1.8rem;
+}
+
+/**----------   RODAPÉ  ----------**/
+
+footer {
+    max-width: 1500px;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: #f3f1f1;
 }
