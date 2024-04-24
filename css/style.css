@@ -42,7 +42,8 @@ nav>img {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 1rem;
-    transition: .5s;
+    transition: all .3s ease;
+    color: #ffffff;
 }
 
 .menu-link:hover {
