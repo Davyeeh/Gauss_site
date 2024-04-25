@@ -80,10 +80,10 @@ main {
 }
 
 .sessao-cards {
-    padding: 2rem;
     display: grid; 
     grid-template-columns: repeat(4, 1fr);
     gap: 3rem;
+    padding-top: 4rem;
 }
 
 .sessao-cards div {
