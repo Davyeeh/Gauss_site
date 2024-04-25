@@ -34,7 +34,7 @@ nav {
     margin: 1rem 2rem;
 }
 
-nav>img {
+nav > a >img {
     width: 6rem;
 }
 
