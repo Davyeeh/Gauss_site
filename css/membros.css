@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+html, body {
+    background: #ffffff;
+    color: #ffffff;
+    font-family: "Titillium Web";
+    max-width: 1500px;
+    text-transform: uppercase;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    scroll-padding-top: 10vh;
+}
+
+/**----------  CABECALHO  ---------**/
+
+header {
+    width: 100%;
+    height: auto; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #051a3f;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+
+    margin: 1rem 2rem;
+}
+
+.menu {
+    display: flex;
+    flex: row;
+    gap: 2rem;
+}
+
+.menu-link {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all .3s ease;
+    color: #ffffff;
+}
+
+.menu-link:hover {
+    color: #c4c4c4;
+    cursor: pointer;
+}
+
+
+nav>img {
+    width: 6rem;
+}
+
+.titulo {
+    color: #002254;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 3rem 0 3rem 0;
+}
+
+
+
+
+/**----------  CORPO  ----------**/
+
+main {
+    height: 100vh;
+    margin-top: 12vh;
+    background: #f3f1f1;
+}
+
+/**----------  RODAPÉ  ----------**/
+
+footer {
+    max-width: 1500px;
+    background: #002254;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: #f3f1f1;
+}
