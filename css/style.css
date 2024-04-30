@@ -130,12 +130,13 @@ main {
     font-weight: 600;
     font-size: 1.2rem;
     text-transform: uppercase;
+    color: #002254;
 }
 
 .servicos-card>p {
     font-weight: 600;
     font-size: 1rem;
-    color: #777777;
+    color: #232323;
 }
 
 .sobre {
@@ -239,7 +240,7 @@ main {
 }
 
 .trabalho-card-conteudo-texto {
-    color: #9a9a9a;
+    color: #232323;
     font-size: 1rem;
     font-weight: 400;
     margin: 0 1.5rem;
@@ -285,15 +286,10 @@ main {
 }
 
 .membros-cards {
-    background: #f9f9f9;
-    margin-top: 2rem;
-    height: auto;
-    width: 82%;
-    padding: .5rem 2rem;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    display: grid; 
+    grid-template-columns: repeat(5, 1fr);
+    gap: 3rem;
+    padding: 4rem 0 4rem 0;
 }
 
 .membros-cards>div {
@@ -310,7 +306,7 @@ main {
 
 .membros-cards>div>img {
     height: 10rem;
-    width: 75%;
+    width: 90%;
 }
 
 .membros-botao {
