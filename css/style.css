@@ -6,7 +6,7 @@ html, body {
     background: #051a3f;
     color: #ffffff;
     font-family: "Titillium Web";
-    max-width: 1500px;
+    max-width: 100%;
     text-transform: uppercase;
     text-decoration: none;
     scroll-behavior: smooth;
@@ -60,7 +60,7 @@ nav > a >img {
 /**----------  CORPO ---------**/
 
 main {
-    max-width: 1500px;
+    max-width: 2000px;
     display: flex;
     flex-direction: column;
 }
@@ -490,7 +490,7 @@ main {
 /**----------   RODAPÉ  ----------**/
 
 footer {
-    max-width: 1500px;
+    width: 100%;
     height: 3rem;
     display: flex;
     justify-content: center;
