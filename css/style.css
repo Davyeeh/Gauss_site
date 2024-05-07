@@ -141,6 +141,7 @@ main {
 
 .sobre {
     background-color: #ffffff;
+    width: 100%;
 
     display: flex;
     flex-direction: column;
@@ -156,7 +157,7 @@ main {
     flex-direction: row;
     align-items: center;
     gap: 3rem;
-    margin: 0 3rem;
+    margin: 0 10rem;
 
     color: #212529;
 }

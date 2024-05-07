@@ -4,7 +4,7 @@ html, body {
     background: #ffffff;
     color: #ffffff;
     font-family: "Titillium Web";
-    max-width: 1500px;
+    max-width: 100%;
     text-transform: uppercase;
     text-decoration: none;
     scroll-behavior: smooth;
@@ -123,7 +123,7 @@ main {
 /**----------  RODAPÉ  ----------**/
 
 footer {
-    max-width: 1500px;
+    max-width: 100%;
     background: #002254;
     height: 3rem;
     display: flex;
