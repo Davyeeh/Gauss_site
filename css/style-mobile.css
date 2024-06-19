@@ -204,6 +204,7 @@
         text-align: center;
         justify-content: center;
         padding: 0 0 2rem 0;
+        width: 10rem;
     }
 
     .trabalho-card-conteudo-numero {
@@ -233,7 +234,7 @@
         font-size: 0.8rem;
         font-weight: 400;
         margin: 0 1.5rem;
-        width: 30rem;
+        width: 10rem;
     }
 
     .membros {
@@ -532,6 +533,585 @@
 
     footer > p {
         font-size: 0.8rem;
+    }
+    
+    footer > p > a {
+        text-decoration: none;
+        color: #f3f1f1;
+    }
+
+}
+
+@media (max-width: 400px) {
+    
+    html, body {
+        background: #ffffff;
+        color: #ffffff;
+        font-family: "Titillium Web";
+        max-width: 400px;
+        width: 400px;
+        text-transform: uppercase;
+        text-decoration: none;
+        scroll-behavior: smooth;
+        scroll-padding-top: 10vh;
+    }
+    
+    /**----------  CABECALHO  ---------**/
+    
+    header {
+        max-width: 400px;
+        height: auto; 
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #051a3f;
+    }
+    
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: auto;
+        margin-top: 2rem;
+    
+        margin: 1rem 2rem;
+    }
+    
+    .menu {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+    
+    .menu-link {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 0.7rem;
+        transition: all .3s ease;
+        color: #ffffff;
+    }
+    
+    .menu-link:hover {
+        color: #c4c4c4;
+        cursor: pointer;
+    }
+    
+    
+    nav > a >img {
+        width: 5rem;
+        margin-bottom: 1rem;
+    }
+    /* HOME*/
+
+    main {
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero {
+        margin: 0;
+        max-width: 400px;
+        height: 100vh;
+        background: url(../assets/background-hero.png) no-repeat center center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .hero-texto-1 {
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+        align-items: start;
+        justify-content: center;
+        margin-left: -13%;
+    }
+
+    .hero-texto-1>h1 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        width: 70%;
+    }
+
+    .hero-texto-1>h2 {
+        font-weight: 400;
+        font-size: 0.8rem;
+        width: 70%;
+    }
+
+    .servicos {
+        margin: 0;
+        max-width: 400px;
+        background: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: #333333;
+        margin-top: -45px;
+    }
+
+    .servicos-card {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 10rem;
+    }
+
+    .servicos-card-icon {
+        height: 1.8rem;
+    }
+
+    .servicos-card>h2 {
+        font-weight: 600;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        color: #051a3f;
+    }
+
+    .servicos-card>p {
+        font-weight: 600;
+        font-size: 0.6rem;
+        color: #232323;
+    }
+    
+    .sobre {
+        margin: 0;
+        max-width: 400px;
+        background-color: #ffffff;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sobre-texto {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 3rem;
+        margin: 0 10rem;
+        font-size: 1rem;
+    
+        color: #212529;
+    }
+
+    .part1 {
+        flex-direction: column;
+    }
+
+    .part2 {
+        flex-direction: column-reverse;
+    }
+    
+    .sobre-texto>p {
+        font-weight: 600;
+        margin-top: -2rem;
+        font-size: 1.4rem;
+    }
+
+    .sobre-texto>img {
+        height: 190px;
+    }
+
+    .trabalho {
+        margin: 0;
+        max-width: 400px;
+        background: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .trabalho-titulo {
+        font-size: 1rem;
+        font-weight: 700;
+        color: #212529;
+    }
+
+    .trabalho-subtitulo {
+        text-align: center;
+        font-size: 1rem;
+        text-align: center;
+        font-weight: 700;
+        color: #232323;
+    }
+    
+    .trabalho-card-divisao {
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+    }
+
+    .trabalho-card-conteudo {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        padding: 0 0 0rem 0;
+        max-width: 100%;
+    }
+
+    .trabalho-card-conteudo-numero {
+        display: none;
+        font-size: 2rem;
+        margin-left: 1rem;
+        color: #051a3f;
+        font-weight: 700;
+        text-align: left;
+        margin-bottom: -5rem;
+        margin-top: 2rem;
+    }
+
+    .trabalho-card-conteudo-icon {
+        height: 1.8rem;
+        margin: 1rem 0rem;
+    }
+
+
+    .trabalho-card-conteudo>h2 {
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: #212529;
+        margin-bottom: 0.6rem;
+        text-align: center;
+    }
+
+    .trabalho-card-conteudo-texto {
+        color: #232323;
+        font-size: 0.6rem;
+        font-weight: 400;
+        margin: 0 0;
+    }
+
+    .membros {
+        margin: 3rem 0;
+        max-width: 400px;
+        background: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0rem 0rem;
+    }
+    
+    .membros-titulo {
+        margin: 0 0 0 0;
+        text-transform: uppercase;
+        font-size: 1rem;
+        font-weight: 700;
+        color: #212529;
+    }
+
+    .membros-subtitulo {
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: #232323;
+        text-transform: uppercase;
+    }
+
+    .membros-text {
+        color: #9a9a9a;
+        text-align: center;
+        font-size: 0.7rem;
+        font-weight: 400;
+        margin: -0.5rem 1.5rem;
+    }
+    
+    .membros-cards {
+        display: grid; 
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0rem;
+    }
+    
+    .membros-cards>div>img {
+        height: 5rem;
+        width: 5rem;
+    }
+
+    .membros-cards>div>p {
+        font-size: 0.6rem;
+        font-weight: 600;
+    }
+    
+    .membros-botao>a {
+        font-size: 0.8rem;
+    }
+
+    .depoimento {
+        margin: 0;
+        max-width: 400px;
+        background: #051a3f;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .depoimento-titulo {
+        margin: 0 0 0 0;
+        text-transform: uppercase;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    
+    .depoimento-subtitulo {
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: #ffffff;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+    }
+
+    .depoimento-div {
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        max-width: 400px;
+        display: flex;
+        display: flex;
+        gap: 2rem;
+    }
+    
+    .depoimento-card {
+        height: auto;
+        padding: 0.5rem;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    .depoimento-card>img {
+        border-radius: 100%;
+        height: 3rem;
+    }
+
+    .depoimento-card-texto {
+        font-size: 0.5rem;
+    }
+
+    .depoimento-card-nome, .depoimento-card-cliente {
+        font-size: 0.5rem;
+    }
+    
+    .depoimento-texto {
+        width: 10rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .contato {
+        margin: 0;
+        max-width: 400px;
+        background: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contato-titulo {
+        color: #232323;
+        margin: 0 0 0 0;
+        text-transform: uppercase;
+        font-size: 1rem;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .contato-subtitulo {
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #232323;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+    }
+
+    .contato-card {
+        height: auto;
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        color: #232323;
+    }
+    
+    .contato-card > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        background: #f3f1f1;
+        text-align: center;
+        align-items: center;
+        padding: 1rem;
+        height: 9rem;
+        width: 8rem;
+        gap: 1rem;
+    
+        margin-bottom: 2rem;
+    }
+
+    .contato-card > div > h2 {
+        font-size: 0.8rem;
+        color: #232323;
+        font-weight: 600;
+    }
+
+    .contato-card > div > img {
+        height: 1.8rem;
+    }
+
+    .contato-redes > div > a  {
+        font-size: 0.5rem;
+    }
+    
+    .contato-endereco >p > a, .contato-zap > p > a, .contato-redes > p > a{
+        font-size: 0.8rem;
+        text-decoration: underline;
+    }
+    
+    .contato-redes > div > a {
+        font-size: 0.8rem;
+        text-decoration: underline;
+    }
+
+    /* SOBRE NÒS*/
+
+    
+    /**----------  CORPO  ----------**/
+    
+    main {
+        background: #ffffff;
+        margin-top: 9vh;
+        height: auto;
+        max-width: 400px;
+        align-items: center;
+    }
+    
+    .titulo {
+        color: #051a3f;
+        font-size: 2.2rem;
+        font-weight: 700;
+        text-align: center;
+        margin: 6rem 0 0 0;
+    }
+    
+    section {
+        height: 100%;
+        margin: 0 3rem 3rem 3rem;
+        padding: 1rem;
+        box-sizing: border-box;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .img {
+        height: 7rem;
+        width: 21rem;
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+    }
+    
+    .texto {
+        color: #232323;
+        text-align: center;
+        font-size: 0.8rem;
+        font-weight: 500;
+        text-align: justify;
+        line-height: 140%;
+    }
+    
+
+    /* MEMBROS */
+
+    .menu2 {
+        display: none;
+    }
+
+    .sessao {
+        height: auto;
+        max-width: 400px;
+        color: #051a3f;
+        font-size: 1.8rem;
+        font-weight: 600;
+        margin: 6rem 3rem 3rem 4rem;
+        height: auto;
+    }
+
+    .sessao > h2 {
+        text-align: center;
+    }
+
+    .sessao-cards {
+        display: grid; 
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        padding: 2rem 0 2rem 0;
+        margin-top: -6rem;
+        text-align: center;
+    }
+
+    .sessao-cards div {
+        background-color: #f9f9f9;
+        height: 13rem;
+        width: 8rem;
+        padding: 1rem;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        margin: 6rem 0 0rem 0;
+        gap: 3rem;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .sessao-cards div img {
+        height: 7rem;
+        border-radius: 100%;
+    }
+
+    .sessao-cards div p {
+        margin-top: 0rem;
+        font-size: 0.8rem;
+        color: #232323;
+    }
+
+    .sessao-cards div > div {
+        margin-top: -2.5rem;
+    }
+
+    .sessao-cards div > div > p > a > img {
+        height: 1.8rem;
+    }
+
+    
+    /**----------  RODAPE  ----------**/
+    
+    footer {
+        max-width: 400px;
+        max-height: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+        background: #051a3f;
+        text-align: center;
+    }
+
+    footer > p {
+        font-size: 0.6rem;
     }
     
     footer > p > a {
