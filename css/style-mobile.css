@@ -312,14 +312,14 @@
     }
 
     .membros-cards>div {
-        background: #f9f9f9;
+        background: #ffffff;
         height: auto;
         width: auto;
         padding: 0rem;
         color: black;
         display: flex;
         flex-direction: column;
-        gap: 0rem;
+        gap: 0.8rem;
         align-items: center;
         text-align: center;
     }
@@ -473,7 +473,7 @@
         align-items: center;
         padding: 2rem 1rem;
         height: auto;
-        width: auto;
+        width: 10rem;
         gap: 2rem;
     
         margin-bottom: 4rem;
@@ -487,6 +487,10 @@
 
     .contato-card > div > img {
         height: 2.5rem;
+    }
+
+    .contato-zap > img{
+        padding: 2rem 0 0 0;
     }
     
     .contato-redes > div {
@@ -612,10 +616,10 @@ main {
 }
 
 .sessao-cards > div {
-    background-color: #f9f9f9;
+    background-color: #ffffff;
     height: auto;
     width: auto;
-    padding: 0rem;
+    padding: 1rem 0rem;
     color: black;
     display: flex;
     flex-direction: column;
@@ -643,6 +647,7 @@ main {
     height: auto;
     padding: 0;
     width: auto;
+    background: #ffffff;
 }
 
 }
