@@ -600,6 +600,10 @@ main {
     text-align: center;
 }
 
+.sessao > h2 {
+    margin-bottom: 1.5rem;
+}
+
 .sessao-cards {
     display: grid; 
     grid-template-columns: repeat(2, 1fr);
