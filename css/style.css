@@ -63,6 +63,7 @@ main {
     max-width: 100%;
     display: flex;
     flex-direction: column;
+    margin: auto;
 }
 
 .hero {
@@ -151,8 +152,6 @@ main {
 
     padding: 3rem;
 }
-
-
 
 .sobre-texto {
     display: flex;
@@ -335,8 +334,9 @@ main {
     color: #d6d6d6;
 }
 
+/*---------- TEMPORARIO ----------*/
 .depoimento {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -461,26 +461,22 @@ main {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    justify-content: start;
     align-items: start;
-    text-align: start;
     text-decoration: none;
 }
 
 .contato-redes > div > a  {
-    align-items: center;
-    text-align: center;
     text-decoration: none;
     color: #232323;
 }
 
 .contato-endereco >p > a, .contato-zap > p > a{
     color: #232323;
+    text-decoration: underline;
 }
 
-.contato-redes > div > a > img {
-    height: 1rem;
-    margin: 10px 1px 0 0;
+.contato-redes > div > a {
+    text-decoration: underline;
 }
 
 .contato-zap > img {
