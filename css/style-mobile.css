@@ -184,7 +184,7 @@
         width: 100vw;
         max-width: 800px;
         min-width: 300px;
-        margin-top: 2rem;
+        margin-top: 6rem;
 
         background: #ffffff;
         display: flex;
@@ -195,7 +195,7 @@
     }
 
     .trabalho-titulo {
-        margin: 2rem 0 0 0;
+        margin: 0 0 -1rem 0;
         font-size: 1.3rem;
         font-weight: 700;
         color: #212529;
@@ -215,7 +215,7 @@
         background-color: #051a3f;
         height: .1rem;
         width: 20%;
-        margin: 1rem 0 2rem 0;
+        margin: 0 0 2rem 0;
     }
 
     .trabalho-card-divisao {
@@ -262,7 +262,7 @@
         width: 100vw;
         max-width: 800px;
         min-width: 300px;
-        margin-top: 2rem;
+        margin-top: 6rem;
 
         background: #ffffff;
         display: flex;
@@ -273,7 +273,7 @@
     }
 
     .membros-titulo {
-        margin:0;
+        margin: 0 0 -1rem 0;
         text-transform: uppercase;
         font-size: 1.3rem;
         font-weight: 700;
@@ -292,7 +292,7 @@
         background-color: #051a3f;
         height: .1rem;
         width: 20%;
-        margin: 1rem 0 2rem 0;
+        margin: 0 0 2rem 0;
     }
 
     .membros-text {
