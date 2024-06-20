@@ -75,7 +75,7 @@ main {
 
 section {
     height: 100%;
-    margin: 0 3rem 3rem 3rem;
+    margin: 0 0rem 0 0rem;
     padding: 1rem;
     box-sizing: border-box;
 
@@ -97,7 +97,6 @@ section {
     text-align: center;
     font-size: 1rem;
     font-weight: 600;
-    width: 50rem;
 }
 
 
