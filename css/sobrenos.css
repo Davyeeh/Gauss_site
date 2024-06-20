@@ -61,7 +61,7 @@ nav > a >img {
 main {
     background: #ffffff;
     margin-top: 9vh;
-    height: 100vh;
+    height: auto;
     align-items: center;
 }
 
@@ -97,6 +97,8 @@ section {
     text-align: center;
     font-size: 1rem;
     font-weight: 500;
+    width: 50vw;
+    text-align: justify;
 }
 
 

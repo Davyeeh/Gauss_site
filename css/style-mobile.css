@@ -511,7 +511,7 @@
     /**----------   RODAPÉ  ----------**/
 
 footer {
-    margin-top: 4rem;
+    margin-top: 2rem;
     width: 100vw;
     max-width: 800px;
     min-width: 300px;
@@ -544,8 +544,8 @@ section {
     max-width: 800px;
     min-width: 300px;
 
-    height: 100%;
-    margin: 0rem 0 2rem 0;
+    height: auto;
+    margin: 0rem 0 0rem 0;
     padding: 2rem 0rem;
     box-sizing: border-box;
 
