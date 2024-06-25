@@ -291,7 +291,7 @@ main {
     padding: 4rem 0 4rem 0;
 }
 
-.membros-cards>div {
+.membros-cards > div {
     background: #f9f9f9;
     height: auto;
     padding: 0.5rem;
@@ -495,7 +495,7 @@ footer {
     align-items: center;
     font-size: 1rem;
 
-    padding: 1rem 0 1rem 0;
+    padding: 0.5rem 0 0.5rem 0;
 }
 
 footer > p > a {
