@@ -10,6 +10,7 @@
         text-decoration: none;
         scroll-behavior: smooth;
         scroll-padding-top: 10vh;
+        overflow-x: hidden;
         
     }
 
@@ -307,7 +308,7 @@
     .membros-cards {
         display: grid; 
         grid-template-columns: repeat(2, 1fr);
-        gap: 0rem;
+        gap: 2rem;
         padding: 0rem 0 0rem 0;
     }
 
@@ -333,6 +334,7 @@
     .membros-cards > div > p {
         font-size: 0.8rem;
         font-weight: 600;
+        width: 10rem;
         padding: 0;
     }
 
@@ -486,11 +488,11 @@
     }
 
     .contato-card > div > img {
-        height: 2.5rem;
+        height: 3rem;
     }
 
     .contato-zap > img{
-        padding: 2rem 0 0 0;
+        margin-top: 0rem;
     }
     
     .contato-redes > div {

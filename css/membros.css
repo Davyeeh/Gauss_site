@@ -82,14 +82,15 @@ main {
 
 .sessao-cards {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 3fr);
     gap: 3rem;
     padding: 4rem 0 4rem 0;
 }
 
-.sessao-cards div {
+.sessao-cards > div {
     background-color: #ffffff;
     height: 20rem;
+    max-height: 20rem;
     width: 15rem;
     padding: 1rem;
     color: black;
@@ -98,26 +99,28 @@ main {
     gap: 1rem;
     align-items: center;
     text-align: center;
+    margin-top: 2rem;
 }
 
-.sessao-cards>div>img {
+
+.sessao-cards > div > img {
     height: 10rem;
     width: 10rem;
-    border-radius: 100%;
+    border-radius: 5%;
 }
 
-.sessao-cards>div>p {
+.sessao-cards > div > p {
     margin-top: 1rem;
     font-size: 1rem;
     color: #232323;
 }
 
-.sessao-cards div>div {
-    width: 10rem;
+.sessao-cards > div > div {
+    width: 100%;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .sessao-cards div>div>p>a>img {
