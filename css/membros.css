@@ -14,7 +14,7 @@ body {
 
 /**----------  CABECALHO  ---------**/
 
-#JuanFonte {
+#JuanFonte > p{
     font-size: 20px;
 }
 
